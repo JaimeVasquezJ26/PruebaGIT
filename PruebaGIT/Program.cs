@@ -21,6 +21,7 @@ namespace PruebaGIT
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    var x =2;
                 });
     }
 }
